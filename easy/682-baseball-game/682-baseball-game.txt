@@ -1,0 +1,10 @@
+                }
+            }
+            scores.push(Integer.valueOf(operation));
+        }
+        for (Integer score : scores) {
+            total += score;
+        }
+        return total;
+    }
+}
