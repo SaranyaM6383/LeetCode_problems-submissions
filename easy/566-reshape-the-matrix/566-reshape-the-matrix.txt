@@ -1,0 +1,15 @@
+                output_cols++;
+                
+                //if the cols value reached then change the row and set the cols value to 
+0.
+                if(output_cols == c)
+                {
+                    output_cols = 0;
+                    output_rows++;
+                }
+            }
+        }
+        
+        return output;
+    }
+}
