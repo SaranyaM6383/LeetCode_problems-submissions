@@ -1,0 +1,13 @@
+                wordMap.put(ch, wordMap.getOrDefault(ch,0)+1);
+            {
+            for(char ch : word.toLowerCase().toCharArray()) 
+            Map<Character, Integer> wordMap = new HashMap<>();
+        for(String word : words) {
+        String shortest = null;
+        }
+            map.put(ch, map.getOrDefault(ch,0)+1);
+        Map<Character,Integer> map = new HashMap<>();
+        for(char ch : str.toCharArray()) {
+    public String shortestCompletingWord(String licensePlate, String[] words) {
+        String str = licensePlate.replaceAll("[^A-Za-z]","").toLowerCase();
+class Solution {
