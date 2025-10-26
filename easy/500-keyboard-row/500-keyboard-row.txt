@@ -1,0 +1,14 @@
+        for(int j=0;j<rows.length;j++){
+            if(rows[j].indexOf(word.charAt(0))!=-1){
+             int index=-1; 
+           String word=words[i].toLowerCase();
+       for(int i=0;i<words.length;i++){
+       int c=0;
+       String temp[]=new String[words.length];
+       String rows[]={"qwertyuiop","asdfghjkl","zxcvbnm"};
+    public String[] findWords(String[] words) {
+class Solution {
+                index=j;
+                break;
+            }
+        }
