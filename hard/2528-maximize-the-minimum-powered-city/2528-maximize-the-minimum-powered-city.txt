@@ -1,0 +1,14 @@
+            curAdd += diff[i];
+            long total = power[i] + curAdd;
+            if (total < target) {
+                long need = target - total;
+                used += need;
+                if (used > k) return false;
+                curAdd += need;
+                int end = Math.min(n, i + 2 * r + 1);
+                diff[end] -= need;
+            }
+        }
+        return true;
+    }
+}
