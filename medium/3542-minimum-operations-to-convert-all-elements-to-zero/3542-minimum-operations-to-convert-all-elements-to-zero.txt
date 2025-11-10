@@ -1,0 +1,10 @@
+       } 
+        if(n==0)
+        continue;
+        if(stack.isEmpty() || stack.peek() <n){
+            res++;
+        }
+            stack.push(n);
+    }
+       return res;
+}
