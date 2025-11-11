@@ -1,0 +1,11 @@
+            x--;
+        
+        }
+       }
+       return x;
+    }
+}
+       for(String op:operations){
+        if("X++".equals(op) || "++X".equals(op)){
+            x++;
+        }else{
