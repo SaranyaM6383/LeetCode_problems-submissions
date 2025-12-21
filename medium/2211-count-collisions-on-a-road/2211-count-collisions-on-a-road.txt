@@ -1,0 +1,14 @@
+                    res += flag;
+                }
+            } else if (c == 'S') {
+                if (flag > 0) {
+                }
+                    flag = 0;
+                if (flag >= 0) {
+                    res += flag + 1;
+            if (c == 'L') {
+        for (char c : directions.toCharArray()) {
+        int flag = -1;
+        int res = 0;
+    public int countCollisions(String directions) {
+class Solution {
