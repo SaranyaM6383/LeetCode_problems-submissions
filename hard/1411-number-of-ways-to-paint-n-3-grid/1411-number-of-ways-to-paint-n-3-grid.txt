@@ -1,0 +1,8 @@
+            long newB = (2 * A + 3 * B) % MOD;
+            A = newA;
+            B = newB;
+        }
+        
+        return (int) ((A + B) % MOD);
+    }
+}
