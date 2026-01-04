@@ -1,0 +1,7 @@
+            } else {
+                right--;
+            }
+        }
+        return maxArea;        
+    }
+}
