@@ -1,0 +1,8 @@
+            
+            i++;
+        }
+        
+        // Step 4: Apply sign and return
+        return (int)(res * sign);        
+    }
+}
