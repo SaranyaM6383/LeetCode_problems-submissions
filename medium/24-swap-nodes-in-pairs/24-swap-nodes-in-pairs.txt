@@ -1,0 +1,6 @@
+            prev = cur;
+            cur = npn;
+        }
+        return dummy.next;        
+    }
+}
