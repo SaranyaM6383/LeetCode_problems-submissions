@@ -1,0 +1,7 @@
+            }
+ 
+            curr_lvl++;
+        }
+        return max_lvl;
+    }
+}
