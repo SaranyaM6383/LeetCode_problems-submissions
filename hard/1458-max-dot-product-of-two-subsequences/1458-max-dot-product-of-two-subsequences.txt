@@ -1,0 +1,6 @@
+        memo = new int[n][m];
+        for (int i = 0; i < n; i++)
+            Arrays.fill(memo[i], Integer.MIN_VALUE);
+        return dp(0, 0);
+    }
+}
