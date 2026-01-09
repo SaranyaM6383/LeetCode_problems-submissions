@@ -1,0 +1,7 @@
+        parent.put(root, null);
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        Map<TreeNode, TreeNode> parent = new HashMap<>();
+        if (root == null) return null;
+    public TreeNode subtreeWithAllDeepest(TreeNode root) {
+class Solution {
