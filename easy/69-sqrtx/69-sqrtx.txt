@@ -1,0 +1,8 @@
+integer value of the square root.
+        // However, since we might have been using integer division in the 
+calculations,
+        // we round down the value of "end" to the nearest integer to get the 
+correct square root.
+        return Math.round(end);
+    }
+}
