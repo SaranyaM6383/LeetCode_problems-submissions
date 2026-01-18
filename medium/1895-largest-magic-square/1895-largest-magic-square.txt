@@ -1,0 +1,6 @@
+            summ += grid[i + k][j + side - 1 - k];
+        }
+        if (sum != summ) return false;
+        return true;
+    }
+}
