@@ -1,0 +1,6 @@
+        }
+    }
+            b+=(c&1)^1;
+            res=Math.min(res,a+b);
+        return res;
+}
