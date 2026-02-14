@@ -1,0 +1,8 @@
+                tower[r+1][c+1]+=excess;
+            }
+        }
+      }  
+    }
+      return tower[query_row][query_glass];
+}
+                tower[r+1][c]+=excess;
