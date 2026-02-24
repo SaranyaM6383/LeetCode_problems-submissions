@@ -1,0 +1,10 @@
+        while(area% W!=0){
+            W--;
+        }
+        int L=area/W;
+        return new int[]{L,W}  ;
+          }
+}
+        int W=(int) Math.sqrt(area);
+class Solution {
+    public int[] constructRectangle(int area) {
