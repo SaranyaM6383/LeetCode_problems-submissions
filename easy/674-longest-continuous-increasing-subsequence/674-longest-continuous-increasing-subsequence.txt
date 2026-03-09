@@ -1,0 +1,10 @@
+            }
+                c++;
+            if(nums[i]>nums[i-1]){
+        for(int i=1;i<n;i++){
+        int count=0;int c=1;
+        return 1;
+        if(n==1)
+        int n=nums.length;
+class Solution {
+    public int findLengthOfLCIS(int[] nums) {
