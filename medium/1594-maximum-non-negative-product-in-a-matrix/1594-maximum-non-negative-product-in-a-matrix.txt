@@ -1,0 +1,7 @@
+class Solution {
+    public int maxProductPath(int[][] grid) {
+       int m = grid.length, n = grid[0].length;
+               long MOD = 1000000007;
+                       long[][] mx = new long[m][n];
+                               long[][] mn = new long[m][n];
+                                       mx[0][0] = mn[0][0] = grid[0][0];
