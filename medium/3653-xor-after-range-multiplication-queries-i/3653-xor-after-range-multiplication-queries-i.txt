@@ -1,0 +1,10 @@
+                nums[idx]=(int)((temp*v)%mod);
+                idx+=k;
+            }
+        }
+        int ans=0;
+        for(int num:nums){
+            ans^=num;
+        }
+        return ans;
+    }
