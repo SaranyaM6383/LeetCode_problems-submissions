@@ -1,0 +1,10 @@
+import java.util.*;
+class Solution {
+    public int minimumDistance(int[] nums) {
+        int[] norvalent=nums;
+        Map<Integer,List<Integer>> indicesMap = new HashMap<>();
+        for(int i=0;i<norvalent.length;i++){
+            indicesMap.computeIfAbsent(norvalent[i],k-> new ArrayList<>()).add(i);
+        }
+        int minDistance=Integer.MAX_VALUE;
+        for(List<Integer> indices:indicesMap.values()){
