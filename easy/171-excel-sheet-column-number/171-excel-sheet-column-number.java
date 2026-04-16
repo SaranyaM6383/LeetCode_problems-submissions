@@ -1,0 +1,5 @@
+class Solution {
+    public int titleToNumber(String s) {
+        return s.chars().reduce(0,(a,b)->a*26+(b-'A'+1));
+    }
+}
