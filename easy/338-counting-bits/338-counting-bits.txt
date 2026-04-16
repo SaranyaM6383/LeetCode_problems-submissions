@@ -1,0 +1,6 @@
+class·‌Solution·‌{
+    public int[] countBits(int n) {
+        return java.util.stream.IntStream.range(0,n+1).map(Integer::bitCount).toArray
+    }
+();
+}
