@@ -1,0 +1,11 @@
+        }
+        return res+ roman.get(s.charAt(s.length()-1));
+    }
+}
+                res+=roman.get(s.charAt(i));
+            }
+            } else {
+                res -=roman.get(s.charAt(i));
+            if(roman.get(s.charAt(i))<roman.get(s.charAt(i+1))){
+        for(int i=0;i<s.length()-1;i++){
+        roman.put('M',1000);
