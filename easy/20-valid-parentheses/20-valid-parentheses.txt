@@ -1,0 +1,11 @@
+            if(mapping.containsValue(c)){
+                stack.push(c);
+            } else if (mapping.containsKey(c)){
+                if(stack.isEmpty() || mapping.get(c) !=stack.pop()){
+                    return false;
+            }
+        }
+    }
+    return stack.isEmpty();
+    }
+}
