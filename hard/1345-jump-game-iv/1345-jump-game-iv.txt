@@ -1,0 +1,10 @@
+                                                    }
+                                            mp.computeIfAbsent(arr[i], k -> new 
+ArrayList<>()).add(i);
+                                for (int i = 0; i < n; i++) {
+                        Map<Integer, List<Integer>> mp = new HashMap<>();
+                if (n == 1) return 0;
+        int n = arr.length;
+    public int minJumps(int[] arr) {
+import java.util.*;
+class Solution {
