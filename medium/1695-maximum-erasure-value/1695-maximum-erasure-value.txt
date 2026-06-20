@@ -1,0 +1,9 @@
+        }
+            start++;
+        currentSum+=nums[end];
+        seen.add(nums[end]);
+        result=Math.max(result,currentSum);
+       } 
+       return result;
+    }
+}
