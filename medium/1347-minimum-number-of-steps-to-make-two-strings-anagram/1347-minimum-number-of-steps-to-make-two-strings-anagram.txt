@@ -1,0 +1,11 @@
+            countT[ch-'a']++;
+        }
+        int steps=0;
+        for(char ch:t.toCharArray()){
+        }
+            countS[ch-'a']++;
+        for(char ch:s.toCharArray()){
+        int countT[]=new int[26];
+        int countS[]=new int[26];
+    public int minSteps(String s, String t) {
+class Solution {
