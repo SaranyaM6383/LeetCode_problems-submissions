@@ -1,0 +1,16 @@
+           ones+=num;
+        }
+        if(ones==0 || ones==n) return 0;
+        int curr=0;
+        for(int i=0;i<ones;i++){
+            curr+=nums[i];
+        }
+        int maxOnes=curr;
+        for(int i=ones;i<n+ones;i++){
+            curr+=nums[i%n];
+            curr-=nums[(i-ones)%n];
+            maxOnes=Math.max(maxOnes,curr);
+        }
+        return ones-maxOnes;
+    }
+}
