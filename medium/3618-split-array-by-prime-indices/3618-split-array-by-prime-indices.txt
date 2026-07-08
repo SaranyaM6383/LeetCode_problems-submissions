@@ -1,0 +1,14 @@
+        private boolean isPrime(int n){
+        }
+            return Math.abs(sumA-sumB);
+    }
+            }
+            sumB+=nums[i];
+        }else{
+            sumA+=nums[i];
+            if(isPrime(i)){
+        for(int i=0;i<nums.length;i++){
+        long sumB=0;
+       long sumA=0;
+    public long splitArray(int[] nums) {
+class Solution {
