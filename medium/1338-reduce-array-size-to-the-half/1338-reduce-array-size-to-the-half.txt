@@ -1,0 +1,10 @@
+        for(int f:freq){
+            removed+=f;
+            count++;
+            if(removed>=half){
+                return count;
+            }
+        }
+        return count;
+    }
+}
