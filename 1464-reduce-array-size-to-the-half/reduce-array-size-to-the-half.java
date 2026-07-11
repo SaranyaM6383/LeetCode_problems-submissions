@@ -1,4 +1,3 @@
-import java.util.*;
 class Solution {
     public int minSetSize(int[] arr) {
         HashMap<Integer,Integer> map=new HashMap<>();
@@ -20,4 +19,3 @@ class Solution {
         return count;
     }
 }
-        
