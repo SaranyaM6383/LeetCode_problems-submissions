@@ -1,0 +1,13 @@
+        if(s.contains(i)){
+            continue;
+        }
+        for(int i=1;i<=n;i++){
+        if(sum+i>maxSum){
+            break;
+        }
+    }
+        sum+=i;
+        count++;
+    return count;
+    }
+}
